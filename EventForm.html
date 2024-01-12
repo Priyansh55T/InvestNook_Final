@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+        body{
+            background-color: rgb(241, 225, 224);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .form-container {
+            padding: 30px;
+            width: 500px;
+            height: 720px;
+            border: 2px solid black;
+            margin-top: 50px;
+        }
+
+        label {
+            margin-top: 40px;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #070707;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .submit {
+            background-color: rgb(6, 237, 6);
+            color: white;
+            font-size: 20px;
+            margin-top: 50px;
+        }
+        </style>
+</head>
+<body>
+    <h1>Create Event With InvestNook</h1>
+    <center>
+    <div class="form-container">
+        <form method="get" action="Submithandle.php">
+            <label>Enter Event No</label>
+            <input type="number" name="a1" required/><br/>
+            <label>Enter Event Name</label>
+            <input type="text" name="a" required/><br/>
+            <label>Enter Business/Investor Name</label>
+            <input type="text" name="b" required/><br/>
+            <label>Enter Meeting-Platform</label>
+            <input type="text" name="c" required/><br/>
+            <label>Enter Meeting-Id</label>
+            <input type="text" name="d" required/><br/>
+            <input type="submit" class="submit"/>
+        </form>
+    </div>
+    </center>
+</body>
+</html>

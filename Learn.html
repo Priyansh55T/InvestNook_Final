@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestNook</title>
+    <style>
+        .flexvideo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+        }
+
+        .flexvideo iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .flexvideo {
+                gap: 10px; /* Adjust the gap for smaller screens */
+            }
+
+            .flexvideo iframe {
+                height: 315px; /* Keep the height constant */
+                margin-bottom: 20px;
+            }
+        }
+
+        .main-content {
+            text-align: center;
+            margin: 20px;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">InvestNook</div>
+        <div class="menu-toggle">&#9776;</div>
+        <div class="menu">
+            <a href="Home.html">Home</a>
+            <a href="Product.html">Products</a>
+            <a href="Investor Panel.html">Investor Panel</a>
+            <a href="Events.html">Events</a>
+            <a href="Learn.html">Learn</a>
+            <a href="SignIn.html">SignIn</a>
+            <a href="Get Started.html">Get Started</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1>Learn with InvestNook</h1>
+        <p>Explore educational videos to enhance your knowledge.</p>
+    </div>
+
+    <div class="flexvideo">
+        <!-- vieo 1 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dJQn4DqzMVQ?si=2aFqqb74-wYfRjh9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Video1 end -->
+    
+        <!-- Video2 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FZygrBPSaV0?si=SAtCHL0827pjTriS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Video2 End -->
+    
+        <!-- Video3 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qa_4c9zrxf0?si=Z-zE4C-ls2KwDVAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Video3 End -->
+        </div>
+        <!-- flex learn 1 End -->
+    
+        
+        <!-- Flex learn 2 -->
+        <div class="flexvideo">
+            <!-- vieo 1 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fCW-Ulm_2HM?si=rP-VNBtk73Bjjhbd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video1 end -->
+        
+            <!-- Video2 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cc0VVWbhGNs?si=OqPqnHVPYKbXDXFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video2 End -->
+        
+            <!-- Video3 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z8zzYjV8r04?si=ntvYMLHAueeGfUIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video3 End -->
+            </div>
+            <!-- flex learn 2 End -->
+    
+             <!-- Flex learn 3 -->
+            <div class="flexvideo">
+            <!-- vieo 1 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Rf4rU1hwQXc?si=x2Bm03txtQMqUpgf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video1 end -->
+    
+            <!-- Video2 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H5zw7xaEILc?si=niX_oG3iywZ9OsQ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video2 End -->
+        
+            <!-- Video3 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U2-vDG54Btc?si=MPaPSZgOhspgipmm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- Video3 End -->
+            </div>
+
+
+
+    <div class="footer">
+        <div class="footer-logo">InvestNook</div>
+        <p>&copy; 2024 InvestNook. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
